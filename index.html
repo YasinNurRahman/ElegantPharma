@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            align-content: center;
+            align-items: center;
+        }
+        .one{
+            height: 100px;
+            width: 128px;
+            clip-path: polygon(0 1%, 0% 100%, 100% 0);
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+        }
+        .two{
+            height: 100px;
+            width: 128px;
+            clip-path: polygon(0 100%, 100% 100%, 100% 0);
+            position: absolute;
+            left: 25px;
+            display: inline-flex;
+            align-items: center;
+            }
+            .Aone, .Atwo{
+                background-color: rgb(27, 156, 146);
+            }
+            .Bone, .Btwo{
+                background-color: #099268;
+            }
+            .Cone, .Ctwo{
+                background-color: #15aabf;
+            }
+            .Done, .Dtwo{
+                background-color: #4c6ef5;
+            }
+            .Eone, .Etwo{
+                background-color: #ffd43b;
+            }
+            .Fone, .Ftwo{
+                background-color: #f08c00;
+            }
+            .p1{
+                font-weight: 900;
+                font-size: 56px;
+                position: relative;
+                top: -18px;
+                left: -30px;
+                font-size: 56px;
+            }
+            .p2{
+                font-weight: 900;
+                font-size: 56px;
+                position: relative;
+                left: 66px;
+                top: 24px;
+            }
+    </style>
+</head>
+<body>
+    <div class="main Amain">
+        <div class="one Aone"><p class="p1">E</p></div>
+        <div class="two Atwo"><p class="p2">P</p></div>
+    </div>
+    <div class="main Bmain">
+        <div class="one Bone"><p class="p1">E</p></div>
+        <div class="two Btwo"><p class="p2">P</p></div>
+    </div>
+    <div class="main Cmain">
+        <div class="one Cone"><p class="p1">E</p></div>
+        <div class="two Ctwo"><p class="p2">P</p></div>
+    </div>
+    <div class="main Dmain">
+        <div class="one Done"><p class="p1">E</p></div>
+        <div class="two Dtwo"><p class="p2">P</p></div>
+    </div>
+    <div class="main Emain">
+        <div class="one Eone"><p class="p1">E</p></div>
+        <div class="two Etwo"><p class="p2">P</p></div>
+    </div>
+    <div class="main Fmain">
+        <div class="one Fone"><p class="p1">E</p></div>
+        <div class="two Ftwo"><p class="p2">P</p></div>
+    </div>
+</body>
+</html>
