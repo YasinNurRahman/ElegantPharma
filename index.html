@@ -24,29 +24,37 @@
             height: 156px;
             width: 156px;
             clip-path: polygon(0 100%, 100% 100%, 100% 0);
-            position: absolute;
-            left: 20px;
+            position: relative;
+            left: -46%;
             display: inline-flex;
             align-items: center;
             }
-            .Aone, .Atwo{
+            .Aone, .Btwo{
                 background-color: rgb(27, 156, 146);
             }
-            .Bone, .Btwo{
+            .Bone, .Atwo{
                 background-color: #099268;
             }
-            .Cone, .Ctwo{
+            .Cone, .Dtwo{
                 background-color: #15aabf;
             }
-            .Done, .Dtwo{
+            .Done, .Ctwo{
                 background-color: #4c6ef5;
             }
-            .Eone, .Etwo{
+            .Eone, .Ftwo{
                 background-color: #ffd43b;
             }
-            .Fone, .Ftwo{
+            .Fone, .Etwo{
                 background-color: #f08c00;
             }
+            .A_one, .B_two{background-color: #29d2c2; }
+            .B_one, .A_two{background-color: #4c64dc; }
+            .C_one, .D_two{background-color: #172c7a; }
+            .D_one, .C_two{background-color: #616896; }
+            .E_one{ background-color: #4c64dc;}
+            .E_two{ background-color: #616896;}
+            .F_one{ background-color: #29d2c2;} 
+            .F_two{ background-color: #15aabf;}
             .p1{
                 font-weight: 900;
                 font-size: 72px;
@@ -61,38 +69,78 @@
                 left: 88px;
                 top: 36px;
             }
+            .colors{
+                display: flex;
+
+            }
     </style>
 </head>
 <body>
-    <div class="main Amain">
-        <div class="one Aone"><p class="p1">E</p></div>
-        <div class="two Atwo"><p class="p2">P</p></div>
+    <div class="colors">
+        <div class="single">
+            <div class="main Amain">
+                <div class="one Aone"><p class="p1">E</p></div>
+                <div class="two Atwo"><p class="p2">P</p></div>
+            </div>
+            <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
+            <div class="main Bmain">
+                <div class="one Bone"><p class="p1">E</p></div>
+                <div class="two Btwo"><p class="p2">P</p></div>
+            </div>
+                <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
+            <div class="main Cmain">
+                <div class="one Cone"><p class="p1">E</p></div>
+                <div class="two Ctwo"><p class="p2">P</p></div>
+            </div>
+                <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
+            <div class="main Dmain">
+                <div class="one Done"><p class="p1">E</p></div>
+                <div class="two Dtwo"><p class="p2">P</p></div>
+            </div>
+                <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
+            <div class="main Emain">
+                <div class="one Eone"><p class="p1">E</p></div>
+                <div class="two Etwo"><p class="p2">P</p></div>
+            </div>
+                <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
+            <div class="main Fmain">
+                <div class="one Fone"><p class="p1">E</p></div>
+                <div class="two Ftwo"><p class="p2">P</p></div>
+            </div>
+                <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
+        </div>
+        <div class="combo">
+            <div class="main Amain">
+                <div class="one A_one"><p class="p1">E</p></div>
+                <div class="two A_two"><p class="p2">P</p></div>
+            </div>
+            <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
+            <div class="main Bmain">
+                <div class="one B_one"><p class="p1">E</p></div>
+                <div class="two B_two"><p class="p2">P</p></div>
+            </div>
+                <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
+            <div class="main Cmain">
+                <div class="one C_one"><p class="p1">E</p></div>
+                <div class="two C_two"><p class="p2">P</p></div>
+            </div>
+                <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
+            <div class="main Dmain">
+                <div class="one D_one"><p class="p1">E</p></div>
+                <div class="two D_two"><p class="p2">P</p></div>
+            </div>
+                <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
+            <div class="main Emain">
+                <div class="one E_one"><p class="p1">E</p></div>
+                <div class="two E_two"><p class="p2">P</p></div>
+            </div>
+                <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
+            <div class="main Fmain">
+                <div class="one F_one"><p class="p1">E</p></div>
+                <div class="two F_two"><p class="p2">P</p></div>
+            </div>
+                <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
+        </div>
     </div>
-    <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
-    <div class="main Bmain">
-        <div class="one Bone"><p class="p1">E</p></div>
-        <div class="two Btwo"><p class="p2">P</p></div>
-    </div>
-        <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
-    <div class="main Cmain">
-        <div class="one Cone"><p class="p1">E</p></div>
-        <div class="two Ctwo"><p class="p2">P</p></div>
-    </div>
-        <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
-    <div class="main Dmain">
-        <div class="one Done"><p class="p1">E</p></div>
-        <div class="two Dtwo"><p class="p2">P</p></div>
-    </div>
-        <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
-    <div class="main Emain">
-        <div class="one Eone"><p class="p1">E</p></div>
-        <div class="two Etwo"><p class="p2">P</p></div>
-    </div>
-        <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
-    <div class="main Fmain">
-        <div class="one Fone"><p class="p1">E</p></div>
-        <div class="two Ftwo"><p class="p2">P</p></div>
-    </div>
-        <p style="font-size: 18px; margin-top: 0; font-weight: 700;">Elegant Pharma Ltd.</p>
 </body>
 </html>
